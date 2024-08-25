@@ -42,10 +42,9 @@ export default function getRhymingPart(input, { multiple = false } = {}) {
 function getRhymingPartFromWord(word) {
     const pronounciation = dictionary[word] ?? '';
     const stresses = pronounciation.split(' ');
-    const searchStress = pronounciation.includes('1') ? '1' : '2';
 
     for (let i = stresses.length - 1; i >= 0; i--) {
-        if (stresses[i].includes(searchStress)) {
+        if (stresses[i].includes('1') || stresses[i].includes('2')) {
             return stresses.slice(i).join(' ');
         }
     }

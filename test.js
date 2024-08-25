@@ -26,7 +26,7 @@ test('Incorrect input type throws', t => {
 });
 
 test('More complex word', t => {
-    t.is(getRhymingPart('minisupercomputers'), 'UW1 P ER0 K AH2 M P Y UW2 T ER0 Z');
+    t.is(getRhymingPart('minisupercomputers'), 'UW2 T ER0 Z');
 });
 
 test('Multiple words returns the last word', t => {
