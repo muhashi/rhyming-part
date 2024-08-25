@@ -1,0 +1,50 @@
+{
+    "name": "rhyming-part",
+    "version": "1.1.0",
+    "description": "Get the rhyming part of a word, allowing to check if words rhyme or group rhyming words together.",
+    "license": "CC0-1.0",
+    "repository": "muhashi/rhyming-part",
+    "author": {
+        "name": "muhashi",
+        "email": "muhamedoes+muhashi@gmail.com",
+        "url": "https://muhashi.com"
+    },
+    "type": "module",
+    "exports": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+    },
+    "sideEffects": false,
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "test": "ava && tsc index.d.ts"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "keywords": [
+        "rhymes",
+        "rhyming",
+        "rhyme",
+        "phoneme",
+        "part",
+        "phonemes",
+        "stress",
+        "group",
+        "cmu",
+        "dictionary",
+        "pronounciation",
+        "syllable"
+    ],
+    "devDependencies": {
+        "ava": "^6.1.3",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "cmu-pronouncing-dictionary": "^3.0.0",
+        "extractwords": "^2.0.0"
+    }
+}
