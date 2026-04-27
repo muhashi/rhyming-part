@@ -40,7 +40,7 @@
         "syllable"
     ],
     "devDependencies": {
-        "ava": "^7.0.0",
+        "ava": "^8.0.0",
         "typescript": "^6.0.2"
     },
     "dependencies": {
