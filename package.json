@@ -41,7 +41,7 @@
     ],
     "devDependencies": {
         "ava": "^8.0.1",
-        "typescript": "^6.0.2"
+        "typescript": "^7.0.2"
     },
     "dependencies": {
         "cmu-pronouncing-dictionary": "^3.0.0",
